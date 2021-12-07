@@ -1,0 +1,25 @@
+.main-container {
+    height: 80vh;
+    background: linear-gradient(to right, #78ffd6, #007991);
+    border-radius: "10px";
+    box-shadow: "0 3px 5px 2px #78ffd6";
+    color: #ffffff;
+    overflow: auto;
+}
+
+.block-normal {
+    background-color: #00CC74;
+    height: 110px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #007F48;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.block-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}

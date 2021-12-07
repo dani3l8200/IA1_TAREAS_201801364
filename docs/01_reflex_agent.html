@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>T1 - Reflex Agent - 201801364 </title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <link rel="stylesheet" href="01_styles.css" />
+</head>
+
+<body style="background: linear-gradient(to right, #000000, #2d3436 )">
+    <div class="container main-container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-4 pt-5">
+                <h2>Reflex agent</h2>
+                <p id="log"></p>
+            </div>
+            <div class="col-5 pt-5">
+                <h2 style="padding-left: 10px">States</h2>
+                <div class="block-container pt-3">
+                    <div class="block-normal" id="block-1">
+                        1. A | DIRTY | DIRTY
+                        <hr />
+                        <span id="quantity-1">0</span>
+                    </div>
+                    <div class="block-normal" id="block-2">
+                        2. B | DIRTY | DIRTY
+                        <hr />
+                        <span id="quantity-2">0</span>
+                    </div>
+                    <div class="block-normal" id="block-3">
+                        3. A | DIRTY | CLEAN
+                        <hr />
+                        <span id="quantity-3">0</span>
+                    </div>
+                    <div class="block-normal" id="block-4">
+                        4. B | DIRTY | CLEAN
+                        <hr />
+                        <span id="quantity-4">0</span>
+                    </div>
+                    <div class="block-normal" id="block-5">
+                        5. A | CLEAN | DIRTY
+                        <hr />
+                        <span id="quantity-5">0</span>
+                    </div>
+                    <div class="block-normal" id="block-6">
+                        6. B | CLEAN | DIRTY
+                        <hr />
+                        <span id="quantity-6">0</span>
+                    </div>
+                    <div class="block-normal" id="block-7">
+                        7. A | CLEAN | CLEAN
+                        <hr />
+                        <span id="quantity-7">0</span>
+                    </div>
+                    <div class="block-normal" id="block-8">
+                        8. B | CLEAN | CLEAN
+                        <hr />
+                        <span id="quantity-8">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="01_reflex_agent.js"></script>
+</body>
+
+</html>
