@@ -8,13 +8,14 @@
 }
 
 .block-normal {
-    background-color: #00CC74;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    ;
     height: 110px;
     width: 200px;
     margin: 10px;
     padding: 10px;
-    border: 2px solid #007F48;
-    border-radius: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
     font-weight: bold;
 }
 
